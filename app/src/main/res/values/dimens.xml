@@ -1,0 +1,43 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="grid_layout_margin">3dp</dimen>
+    <dimen name="dimen_64">64dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_100">100dp</dimen>
+    <dimen name="dimen_200">200dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+
+    <!--Card Elevation-->
+    <dimen name="cardElevation">10dp</dimen>
+
+    <!--Medium Poster-->
+    <dimen name="posterMediumHeight">280dp</dimen>
+    <dimen name="posterMediumWidth">185dp</dimen>
+    <!--Large Poster-->
+    <dimen name="posterLargeHeight">300dp</dimen>
+    <dimen name="posterLargeWidth">200dp</dimen>
+
+    <!--Backdrop Height-->
+    <dimen name="backdropHeight">200dp</dimen>
+
+    <!--Small Error ImageView Dimens-->
+    <dimen name="errorImageViewSmallHeight">100dp</dimen>
+    <dimen name="errorImageViewSmallWidth">100dp</dimen>
+
+    <!--Large Error ImaegView Dimens-->
+    <dimen name="errorImageViewLargeHeight">200dp</dimen>
+    <dimen name="errorImageViewLargeWidth">200dp</dimen>
+
+    <!--Text Sizes-->
+    <dimen name="textSizeTitle">30sp</dimen>
+    <dimen name="textSizeSubTitle">25sp</dimen>
+    <dimen name="textSizeReleaseDate">14sp</dimen>
+    <dimen name="textSizeTrailersButton">16sp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="textSizeTrailers">20sp</dimen>
+    <dimen name="textSizeReviewsAuthor">15sp</dimen>
+
+
+</resources>

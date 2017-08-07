@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:mContext="nacoda.android.com.popularmovies.fragments.Top">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/swipeRefreshMovie">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvMovies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ImageView
+        android:layout_width="@dimen/errorImageViewSmallWidth"
+        android:layout_height="@dimen/errorImageViewSmallHeight"
+        android:id="@+id/ivError"
+        android:visibility="gone"
+        android:src="@drawable/error_image"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/tvError"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ivError"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/error"/>
+
+
+</RelativeLayout>
